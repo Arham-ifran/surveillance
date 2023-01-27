@@ -1,0 +1,385 @@
+# Translation of Plugins - Delete Me - Stable (latest release) in German
+# This file is distributed under the same license as the Plugins - Delete Me - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2022-01-07 22:10:23+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/3.0.0-alpha.2\n"
+"Language: de\n"
+"Project-Id-Version: Plugins - Delete Me - Stable (latest release)\n"
+
+#: inc/delete_user.php:109
+msgid "Last Name"
+msgstr "Nachname"
+
+#: inc/delete_user.php:108 inc/delete_user.php:109
+msgid "(empty)"
+msgstr "(leer)"
+
+#: inc/delete_user.php:108
+msgid "First Name"
+msgstr "Vorname"
+
+#: inc/delete_user.php:107
+msgid "Role"
+msgstr "Rolle"
+
+#: inc/shortcode.php:11 inc/your_profile.php:12
+msgid "The delete option provided by the Delete Me plugin is not visible to Administrators."
+msgstr "Die Lösch-Option, die durch das Plugin Delete Me zur Verfügung gestellt wird, ist nicht für Administratoren sichtbar."
+
+#: inc/delete_user.php:104
+msgid "User deleted from %d total Network Sites."
+msgstr "Benutzer von insgesamt %d Netzwerk-Websites gelöscht."
+
+#: inc/admin_page_settings.php:510
+msgid "Check to delete users from the entire Network. Uncheck to delete users from only the current Site."
+msgstr "Auswählen, um Benutzer vom gesamten Netzwerk zu löschen. Abwählen, um Benutzer nur von der aktuellen Website zu löschen."
+
+#: inc/delete_user.php:106
+msgid "E-mail"
+msgstr "E-Mail"
+
+#. Plugin Name of the plugin
+msgid "Delete Me"
+msgstr "Delete Me"
+
+#. Author of the plugin
+msgid "Clinton Caldwell"
+msgstr "Clinton Caldwell"
+
+#. Author URI of the plugin
+msgid "https://profiles.wordpress.org/cmc3215/"
+msgstr "https://profiles.wordpress.org/cmc3215/"
+
+#: delete-me.php:314
+msgid "Profile"
+msgstr "Profil"
+
+#: inc/admin_page_confirmation.php:35 inc/shortcode.php:30
+msgid "Password"
+msgstr "Passwort"
+
+#: inc/admin_page_settings.php:281
+msgctxt "%s = plugin name"
+msgid "%s Settings"
+msgstr "%s Einstellungen"
+
+#: inc/admin_page_settings.php:294
+msgid "Enable"
+msgstr "Aktivieren"
+
+#: inc/admin_page_settings.php:294
+msgid "Disable"
+msgstr "Deaktivieren"
+
+#: inc/admin_page_settings.php:296
+msgid "Enabled"
+msgstr "Aktiviert"
+
+#: inc/admin_page_settings.php:297
+msgid "Disabled"
+msgstr "Deaktiviert"
+
+#: inc/admin_page_settings.php:303
+msgid "Roles"
+msgstr "Rollen"
+
+#: inc/admin_page_settings.php:355
+msgid "Translatable"
+msgstr "Übersetzbar"
+
+#: inc/admin_page_settings.php:359
+msgid "Unchanged"
+msgstr "Unverändert"
+
+#: inc/admin_page_settings.php:361
+msgid "Changed"
+msgstr "Geändert"
+
+#: inc/admin_page_settings.php:368
+msgid "Your Profile"
+msgstr "Dein Profil"
+
+#: inc/admin_page_settings.php:371 inc/admin_page_settings.php:437
+msgid "Link"
+msgstr "Link"
+
+#: delete-me.php:102
+msgid "Plugin incompatible, <em>%1$s</em> requires WordPress %2$s or higher."
+msgstr "Das Plugin ist nicht kompatibel, <em>%1$s</em> benötigt WordPress %2$s oder höher."
+
+#: delete-me.php:242
+msgid "Changelog"
+msgstr "Änderungsprotokoll"
+
+#: inc/admin_page_settings.php:100
+msgid "Default settings restored."
+msgstr "Standard-Einstellungen wiederhergestellt."
+
+#: inc/admin_page_settings.php:257
+msgid "Settings saved."
+msgstr "Einstellungen gespeichert."
+
+#: inc/admin_page_settings.php:281
+msgid "Network-Wide"
+msgstr "Netzwerk-übergreifend"
+
+#: inc/admin_page_settings.php:110
+msgid "Network Wide has been disabled."
+msgstr "Netzwerk-überfreifend wurde deaktiviert."
+
+#: inc/admin_page_settings.php:116
+msgid "Network Wide has been enabled."
+msgstr "Netzwerk-übergreifend wurde aktiviert."
+
+#: inc/admin_page_settings.php:286
+msgctxt "%s = enabled or disabled"
+msgid "Role changes are disabled here and changes to settings will not go into effect because <strong>Network-Wide</strong> is %s."
+msgstr "Änderungen der Benutzerrollen sind hier deaktiviert und Änderungen an den Einstellungen werden nicht übernommen, weil <strong>Netzwerk-übergreifend</strong> %s ist."
+
+#: inc/admin_page_settings.php:286 inc/admin_page_settings.php:507
+msgctxt "Link text for Network-Wide settings. %s = plugin name"
+msgid "Network Admin &rarr; Settings &rarr; %s"
+msgstr "Netzwerk-Administrator &rarr; Einstellungen &rarr; %s"
+
+#: inc/admin_page_settings.php:294
+msgctxt "%s = Enable or Disable"
+msgid "%s Network-Wide"
+msgstr "%s Netzwerk-übergreifend"
+
+#: inc/admin_page_settings.php:296
+msgid "The settings on this page affect all sites. Site-specific settings are ignored, except for override attributes in shortcodes."
+msgstr "Die Einstellungen auf dieser Seite wirken sich auf alle Websites aus. Website-spezifische Einstellungen werden ignoriert, außer bei Überschreiben der Attribute in Shortcodes."
+
+#: inc/admin_page_settings.php:297
+msgid "Site-specific settings are used on all sites. Settings on this page are ignored."
+msgstr "Website-spezifische Einstellungen werden für alle Websites verwendet. Einstellungen auf dieser Seite werden ignoriert."
+
+#: inc/admin_page_settings.php:306
+msgid "Which roles can delete themselves?"
+msgstr "Welche Benutzerrollen können sich selbst löschen?"
+
+#: inc/admin_page_settings.php:344
+msgid "To test the plugin, you should use a separate WordPress login with a role other than Super Admin & Administrator. That way the delete links you configure are visible to you."
+msgstr "Um das Plugin auszuprobieren, solltest du eine getrennte WordPress-Anmeldung mit einer anderen Benutzerrolle als Super-Administrator oder Adminstrator verwenden. Auf diese Weise sind die Links, die du zum Löschen einrichtest, für dich sichtbar."
+
+#: inc/admin_page_settings.php:343
+msgid "Super Admins & Administrators are disabled because those roles should typically not be deleted and they can already delete users in WordPress."
+msgstr "Super-Administratoren & Administratoren sind deaktivert, weil dieses Rolle üblicherweise nicht gelöscht werden sollen und sie bereits Benutzer in WordPress löschen können."
+
+#: inc/admin_page_settings.php:322
+msgid "Super Admin & Administrator"
+msgstr "Super-Administratoren & Administrator"
+
+#: inc/admin_page_settings.php:371 inc/admin_page_settings.php:437
+msgid "Class & Style are optional. The last box is the clickable content of the link in HTML (e.g. Delete Account &mdash; or &mdash; <img alt=\"\" src=\"http://www.example.com/image.png\" width=\"100\" height=\"20\" />)."
+msgstr "Class und style sind optional. Das letzte Kästchen enthält den klickbaren Inhalt des Links in HTML (z.B. Konto löschen &mdash; oder &mdash; <img alt=\"\" src=\"http://www.example.com/image.png\" width=\"100\" height=\"20\" />)."
+
+#: inc/admin_page_settings.php:383
+msgid "Confirm Heading"
+msgstr "Überschrift bestätigen"
+
+#: inc/admin_page_settings.php:393
+msgid "Confirm Warning"
+msgstr "Warnhinweis bestätigen"
+
+#: inc/admin_page_settings.php:383
+msgid "Heading, in HTML, used on confirmation page."
+msgstr "Überschrift, HTML, auf Bestätigungsseite verwendet."
+
+#: inc/admin_page_settings.php:399
+msgid "Confirm Password"
+msgstr "Passwort bestätigen"
+
+#: inc/admin_page_settings.php:410
+msgid "Confirm Button"
+msgstr "Bestätigungs-Button"
+
+#: inc/admin_page_settings.php:421 inc/admin_page_settings.php:480
+msgid "Landing URL"
+msgstr "Landing-URL"
+
+#: inc/admin_page_settings.php:421 inc/admin_page_settings.php:480
+msgid "Redirect user here after deletion."
+msgstr "Benutzer nach Löschung hierhin weiterleiten."
+
+#: inc/admin_page_settings.php:424 inc/admin_page_settings.php:483
+msgid "Leave blank to remain at the same URL after deletion."
+msgstr "Frei lassen, wenn nach der Löschung die gleiche URL angezeigt werden soll."
+
+#: inc/admin_page_settings.php:428
+msgid "Link Enabled"
+msgstr "Link aktiviert"
+
+#: inc/admin_page_settings.php:434
+msgid "Shortcode"
+msgstr "Shortcode"
+
+#: inc/admin_page_settings.php:449
+msgid "JS Confirm Warning"
+msgstr "JS Warnhinweis bestätigen"
+
+#: inc/admin_page_settings.php:455
+msgid "JS Confirm Enabled"
+msgstr "JS Bestätigung aktiviert"
+
+#: inc/admin_page_settings.php:461
+msgid "Use Form Instead of Link"
+msgstr "Verwende das Formular statt des Links"
+
+#: inc/admin_page_settings.php:363
+msgid "Installing Translations"
+msgstr "Übersetzungen installieren"
+
+#: inc/admin_page_settings.php:294
+msgctxt "JavaScript confirm for button toggling Network-Wide. %s = enable or disable"
+msgid "WARNING!\\n\\nALL ROLE SELECTIONS WILL BE LOST, NETWORK AND SITE-SPECIFIC\\n\\nAre you sure you want to %s Network-Wide?"
+msgstr "ACHTUNG!\\n\\nALLE BENUTZER-AUSWAHLEN GEHEN VERLOREN, NETZWERK- UND WEBSITE-BEZOGEN\\n\\nBist du sicher, dass du Netzwerk-übergreifend %s möchtest?"
+
+#: inc/delete_user.php:111
+msgctxt "%s = plugin name"
+msgid "This user deleted themselves using the WordPress plugin %s"
+msgstr "Dieser Benutzer hat sich selbst mit Hilfe des WordPress-Plugin %s gelöscht"
+
+#: inc/delete_user.php:101
+msgctxt "%s = site name"
+msgid "[%s] Deleted User Notification"
+msgstr "[%s] Benachrichtigung über gelöschte Benutzer"
+
+#: inc/shortcode.php:27
+msgctxt "JavaScript confirm user deletion"
+msgid "WARNING!\\n\\nAre you sure you want to delete user %username% from %sitename%?"
+msgstr "ACHTUNG!\\n\\nBist du sicher, dass du den Benutzer %username% von %sitename% löschen möchtest?"
+
+#: inc/admin_page_confirmation.php:27 inc/shortcode.php:31
+msgid "Confirm Deletion"
+msgstr "Löschen bestätigen"
+
+#: inc/admin_page_settings.php:355
+msgid "Translatable text strings are highlighted below using two colors. These strings can be controlled using translations on Sites available in multiple languages. If a string is \"Unchanged\" from the default settings, it will use available translations from the languages directory for plugins. A \"Changed\" string will never use translations."
+msgstr "Übersetzbare Zeichenfolgen werden nachfolgend in zwei Farben hervorgehoben. Diese Zeichenfolgen können auf Websites kontrolliert werden, für die Übersetzungen in verschiedenen Sprachen verfügbar sind. Ist eine Zeichenfolge \"unverändert\" in ihrer Standardeinstellung, werden verfügbare Übersetzungen aus dem Sprachverzeichnis für Plugins verwendet. Eine \"geänderte\" Zeichenfolge wird nie Übersetzungen nutzen."
+
+#: inc/admin_page_confirmation.php:21 inc/shortcode.php:29
+msgid "WARNING!<br /><br />Are you sure you want to delete user %username% from %sitename%?"
+msgstr "ACHTUNG!<br /><br />Bist du sicher, dass du Benutzer %username% von %sitename% löschen möchtest?"
+
+#: inc/admin_page_confirmation.php:16 inc/shortcode.php:26
+#: inc/your_profile.php:38
+msgid "Delete Account"
+msgstr "Konto löschen"
+
+#: inc/upgrade.php:24
+msgid "Plugin %1$s updated to version %2$s. See <a href=\"%3$s\">Changelog</a> for details."
+msgstr "Plugin %1$s aktualisiert auf Version %2$s. Details findest du im <a href=\"%3$s\">Änderungsprotokoll</a>."
+
+#: inc/delete_user.php:118
+msgid "%d Comment(s)"
+msgstr "%d Kommentar(e)"
+
+#: inc/delete_user.php:115
+msgid "%d Link(s)"
+msgstr "%d Link(s)"
+
+#: inc/delete_user.php:112
+msgid "%d Post(s)"
+msgstr "%d Beiträge"
+
+#: inc/delete_user.php:110
+msgctxt "%s = date user registered with the Network or Site"
+msgid "Registered: %s"
+msgstr "Registriert: %s"
+
+#: inc/delete_user.php:105
+msgid "Username"
+msgstr "Benutzername"
+
+#: inc/delete_user.php:103
+msgctxt "%s = site name"
+msgid "Deleted user on your site %s"
+msgstr "Lösche Benutzer auf deiner Website %s"
+
+#: inc/admin_page_settings.php:533
+msgctxt "JavaScript confirm for button that restores default settings"
+msgid "WARNING!\\n\\nALL CHANGES WILL BE LOST.\\n\\nAre you sure you want to Restore Default Settings?"
+msgstr "ACHTUNG!\\n\\nALLE ÄNDERUNGEN GEHEN VERLOREN.\\n\\nBist du sicher, dass du die Standard-Einstellungen wiederherstellen möchtest?"
+
+#: inc/admin_page_settings.php:533
+msgid "Restore Default Settings"
+msgstr "Standard-Einstellungen wiederherstellen"
+
+#: inc/admin_page_settings.php:533
+msgid "Save Changes"
+msgstr "Änderungen speichern"
+
+#: inc/admin_page_settings.php:525
+msgctxt "%s = plugin name, WordPress admin email address"
+msgid "Send a text email with deletion details each time a user deletes themselves using %s. This will go to the site administrator email (i.e. %s), the same email address used for new user notification."
+msgstr "Versende eine Text-E-Mail mit Löschungs-Details, sobald sich ein Benutzer selbst mit %s löscht. Dies wird an die E-Mail-Adresse des Website-Administratoren (z.B. %s) versendet, die gleiche E-Mail-Adresse, die auch für Benachrichtigungen über neue Benutzer verwendet wird."
+
+#: inc/admin_page_settings.php:525
+msgid "E-mail Notification"
+msgstr "E-Mail-Benachrichtigung"
+
+#: inc/admin_page_settings.php:519
+msgid "Delete all comments by users when they delete themselves. IF MULTISITE, only comments on the current Site are deleted, other Network Sites remain unaffected."
+msgstr "Lösche alle Kommentare von Benutzern, wenn sie sich selber löschen. BEI EINER MULTISITE werden nur Kommentare auf der aktuellen Website gelöscht, andere Netzwerk-Websites bleiben davon unberührt."
+
+#: inc/admin_page_settings.php:519
+msgid "Delete Comments"
+msgstr "Kommentar löschen"
+
+#: inc/admin_page_settings.php:516
+msgid "Miscellaneous"
+msgstr "Sonstiges"
+
+#: inc/admin_page_settings.php:510
+msgid "Delete From Network"
+msgstr "Vom Netzwerk löschen"
+
+#: inc/admin_page_settings.php:507
+msgid "The setting below applies only to WordPress Multisite installations."
+msgstr "Die nachfolgende Einstellung gilt nur für WordPress Multisite-Installationen."
+
+#: inc/admin_page_settings.php:507
+msgid "Want the same settings across all network sites?"
+msgstr "Möchtest du die gleichen Einstellungen für alle Netzwerk-Websites?"
+
+#: inc/admin_page_settings.php:507
+msgid "Multisite"
+msgstr "Multisite"
+
+#: inc/admin_page_settings.php:491 inc/admin_page_settings.php:495
+msgid "Text inside Shortcode tags"
+msgstr "Text innerhalb des Shortcode-Tags"
+
+#: inc/admin_page_settings.php:487
+msgid "Usage"
+msgstr "Nutzung"
+
+#: inc/admin_page_settings.php:487
+msgid "Text inside the Shortcode open and close tags is only served to those who cannot delete themselves, everyone else will be shown the delete link. Attributes may be used to override settings, but are not required."
+msgstr "Der Text innerhalb der öffnenden und schließenden Shortcode-Tags wird nur denen angeboten, die sich nicht selber löschen können. Alle anderen bekommen den Löschungs-Link angezeigt. Attribute dürfen verwendet werden, um Einstellungen zu überschreiben, sind aber nicht nötig."
+
+#. Description of the plugin
+msgid "Allow users with specific WordPress roles to delete themselves from the <code>Your Profile</code> page or anywhere Shortcodes can be used using the Shortcode <code>[plugin_delete_me /]</code>. Settings for this plugin are found on the <code>Settings &rarr; Delete Me</code> subpanel. Multisite and Network Activation supported."
+msgstr "Ermögliche Benutzern mit bestimmten WordPress-Benutzerrollen, sich selbst über die Seite <code>Dein Profil</code> zu löschen oder überall wo Shortcodes genutzt werden können mit Hilfe des Shortcode <code>[plugin_delete_me /]</code>. Die Einstellungen für dieses Plugin findest du im Unterbereich <code>Einstellungen &rarr; Delete Me</code>. Multisite und Netzwerk-Aktivierung werden unterstützt."
+
+#: inc/admin_page_settings.php:455
+msgid "Check box to use Javascript confirm dialog when using Link, ignored if using Form. Uncheck box for deletion without further confirmation."
+msgstr "Auswählen für den JavaScript-Bestätigungsdialog bei Verwendung des Links. Wird ignoriert, wenn das Formular verwendet wird. Abwählen, wenn die Löschung ohne weitere Bestätigung erfolgen soll."
+
+#: inc/admin_page_settings.php:428
+msgid "Check box to show delete link near the bottom of the Your Profile page, uncheck box to hide delete link."
+msgstr "Auswählen, um den Löschungs-Link weiter unten auf deiner Profil-Seite anzuzeigen. Abwählen, um den Löschungs-Link zu verbergen."
+
+#: inc/admin_page_settings.php:399
+msgid "Check box to require that users confirm their password on the confirmation page. Label, in HTML, used for the password input box on confirmation page."
+msgstr "Auswählen, damit Benutzer ihr Passwort auf der Bestätigungsseite bestätigen müssen. Beschriftung, HTML, wird ür das Passworteingabefeld auf der Bestätigungsseite verwendet."
+
+#: inc/admin_page_settings.php:345
+msgid "Roles from all network Sites are combined on this page, and the selected roles are allowed to delete themselves across all Sites."
+msgstr "Rollen aller Netzwerk-Websites werden auf dieser Seite kombiniert und die ausgewählten Rollen dürfen sich über alle Websites hinweg selber löschen."

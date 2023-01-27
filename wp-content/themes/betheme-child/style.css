@@ -1,0 +1,121 @@
+/*
+Theme Name: Betheme Child
+Theme URI: https://themes.muffingroup.com/betheme
+Author: Muffin group
+Author URI: https://muffingroup.com
+Description: Child Theme for Betheme
+Template: betheme
+Version: 1.6.2
+*/
+.woocommerce .product div.entry-summary h1.product_title {
+    font-size: 22px; line-height: 40px; font-weight: 800;}
+.isotope-item h4 {
+    font-size: 16px;
+    line-height: 22px;
+    font-weight: 500;
+    letter-spacing: 0px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+#Top_bar .menu > li a {
+    font-weight: 500;
+}
+ .component-block-s {
+    border-bottom: 1px dotted #ddd;
+    margin-bottom: 8px;
+    margin-top: 8px;
+}
+ .component-block-s span {
+    font-size: 12px;
+    padding-right: 10px;
+    text-transform: capitalize;
+}
+.woocommerce .shop_table td.product-name a {
+    text-transform: uppercase;
+    color: #444;
+    font-size: 16px;
+}
+.woocommerce .shop_table td.product-name{
+    text-transform: uppercase;
+    color: #444;
+    font-size: 18px;
+    border-right: 1px solid #ddd; 
+    font-family: "Comfortaa", Helvetica, Arial, sans-serif;
+}
+.woocommerce .shop_table td{
+    font-family: "Comfortaa", Helvetica, Arial, sans-serif;
+
+}
+/* .woocommerce .shop_table th{
+    font-family: "Comfortaa", Helvetica, Arial, sans-serif;
+
+}
+
+.woocommerce .shop_table .product-name{
+    font-family: "Comfortaa", Helvetica, Arial, sans-serif;
+} */
+.woocommerce .shop_table td.product-remove .remove.button.the-icon {
+    width: 40px;
+    height: 30px;
+    display: block;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+.woocommerce .shop_table td.product-remove{
+    position: relative;
+    display: block;
+}
+
+.woocommerce .shop_table .product-remove a.remove .button_icon {
+    float: none;
+    display: inline-block;
+    position: relative;
+    bottom: 5px;
+    font-size: 26px;
+    left: 1px;
+}
+tr.woocommerce-table__line-item ul.wc-item-meta {
+    margin-left: 0px;
+}
+.woocommerce-checkout .order_details li {
+    font-size: 12px;
+}
+.woocommerce td.product-name .wc-item-meta .wc-item-meta-label{
+    display: block;
+    float: none;
+}
+.woocommerce-order-received address:before{
+    position: relative;
+}
+section.woocommerce-order-details h2 {
+    color: #444;
+    font-size: 38px;
+}
+h2.woocommerce-column__title {
+    color: #444;
+    font-size: 38px;
+}
+.cart-collaterals h2 {
+    color: #444;
+}
+#Subheader .title {
+    color: #444;
+}
+.page-id-12 h3{
+    color: #444;
+}
+.coupon{
+    display: none !important;
+}
+
+/**@media( max-width: 786px){
+    .woocommerce .shop_table td.product-remove{
+        position: inherit;
+    }
+    .woocommerce .shop_table td.product-remove .remove.button.the-icon {
+        top: -20px;
+        left: 10px;
+    }
+}**/

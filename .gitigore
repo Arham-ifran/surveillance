@@ -1,0 +1,8 @@
+**/*.jpg
+!/wp-content/uploads/*.jpg
+
+**/*.jpeg
+!/wp-content/uploads/*.jpeg
+
+**/*.png
+!/wp-content/uploads/*.png

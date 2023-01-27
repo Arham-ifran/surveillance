@@ -1,0 +1,326 @@
+.anim-popwrap {
+    height: 100vh;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background: rgba(0,0,0,0.6);
+}
+.abso-bg img {
+    max-width: 100%;
+}
+.popup-sec {
+     max-width: 650px;
+    background: rgba(255,255,255,0.9);
+    border-radius: 10px;
+    margin: 12% auto 0; padding: 60px 30px 40px; display: table;
+    position: relative; width: 100%;
+}
+.left-wrap, .right-wrap {
+    width: 50%;
+    float: left;
+    display: table-cell;
+}
+.popup-close {
+    position: absolute;
+    top: 13px;
+}
+.pop-img {
+    width: 260px;
+    height: 260px;
+    border: 2px solid red;
+    border-radius: 50%;
+    overflow: hidden;
+    line-height: 250px;
+    text-align: center;
+    margin-left: 30px; background: #F4F4F4;
+    box-shadow: 3px 0 20px 0 rgba(0,0,0,0.2); z-index: 99;
+position: relative;
+}
+.pop-img img {
+    max-width: 100%;
+    line-height: 250px;
+    display: inline-block;
+    margin-top: 20px; position: relative;
+}
+.pop-content {
+    padding-left: 80px; position: relative;
+}
+.pop-content .img-absol {
+    position: absolute;
+    left: -41px;
+    top: 8px;
+}
+.pop-content .lg-title {
+    font-size: 56px;
+    color: #ff611e;
+}
+.pop-content .link-list {
+    margin-top: 40px;
+    list-style: none;
+    padding: 0;
+}
+.pop-btn {
+    margin-left: 30px;
+    text-align: center;
+    width: 110px;
+    display: inline-block;
+    border: 2px solid #999;
+    padding: 7px;
+    text-decoration: none;
+    color: #000;
+    box-shadow: 3px 0 17px 0 rgba(0,0,0,0.25); transition: all 0.3s; 
+}
+.pop-btn:hover{
+    background: #FF611E; color: #fff; border-color: #FF611E;
+}
+.pop-content .link-list li {
+    padding: 10px 0;
+}
+.pop-check {
+    clear: both;
+    padding-top: 20px;
+}
+.with_aside .sidebar.columns{
+	float:left !important;
+}
+.with_aside .sections_group{
+	float:right !important;
+}
+.mcb-sidebar:before{
+	width: 100% !important;
+}
+@media (max-width: 991px)
+{
+   
+}
+@media(max-width: 768px){
+    
+    .left-wrap, .right-wrap {
+    width: 100%;
+    float: left;}
+    .pop-img{ margin: 20px auto;}
+    .popup-sec{ margin: 15% auto 0; padding: 20px 30px; width: auto;}
+    .pop-img {
+    width: 180px;
+    height: 180px;}
+    .pop-content {
+    padding-left: 0;
+    position: relative;
+    text-align: center;
+}
+.pop-content .link-list {
+    margin-top: 0px;}
+}
+@media (max-width: 400px){
+    .popup-sec {
+    max-width: 270px; margin: 15% 20px;} .pop-content .img-absol{ display: none;}
+}
+.dynamic_content {
+    margin-top: 20px;
+    line-height: 35px;
+}
+
+
+/*custom alert*/
+.alert-box-bg {
+    position: fixed;
+    left: 50%;
+    transform: translate(-50%, 0);
+    height: 100px;
+    /* left: 0; */
+    /*right: 0;*/
+    top: 11%;
+    -webkit-box-shadow: 10px 10px 91px -38px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 91px -38px rgba(0,0,0,0.75);
+    box-shadow: 10px 10px 91px -38px rgba(0,0,0,0.75);
+    z-index: 999999;
+
+
+}
+.popup-alert {
+  padding: 20px;
+  background: rgba(255,255,255,0.9);
+
+  color: #000;
+  overflow: hidden;
+}
+
+.popup-closebtn{
+  margin-left: 15px;
+  color: #ff611e;
+  font-weight: bold;
+  float: right;
+  font-size: 22px;
+  line-height: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.popup-closebtn:hover {
+  color: black;
+}
+.popup-alert-img {
+    width: 80px;
+    height: 80px;
+    border: 2px solid red;
+    border-radius: 50%;
+    overflow: hidden;
+    text-align: center;
+    background: #F4F4F4;
+    box-shadow: 3px 0 20px 0 rgb(0 0 0 / 20%);
+    z-index: 99;
+    position: relative;
+}
+
+.popup-alert-img img {
+    max-width: 100%;
+    line-height: 250px;
+    display: inline-block;
+    margin-top: 20px;
+}
+
+.popup-alert-left-wrap{
+    width: 15%;
+    float: left;
+    display: table-cell;
+}
+.popup-alert-lg-title {
+    display: inline-block;
+    color: #ff611e;
+    font-size: 20px;
+}
+.popup-alert-content img {
+    width: 7%;
+}
+.popup-alert-right-wrap { 
+   width: 85%;
+   float: left;
+   display: table-cell;
+}
+.popup-alert-right-wrap p {
+    font-size: 14px;
+}
+
+
+
+.sections_group_custom {
+    width: 77%;
+    float: left;
+}
+
+@media only screen and (min-width: 1240px) {
+.content_wrapper_custom {
+        max-width: 1240px;
+        margin: 0 auto;
+    }
+}
+
+.sidebar.columns {
+    width: 23%;
+}
+.mcb-sidebar:before {
+    left: 0;
+}
+
+.four.columns {
+    float: right;
+    margin: 0;
+}
+.mcb-sidebar {
+    border-left-width: 1px;
+}
+.desc-custom {
+    padding-bottom: 0px !important;
+}
+
+#quantity_dynamic::-webkit-inner-spin-button,
+#quantity_dynamic::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    margin: 0;
+}
+#quantity_dynamic {
+    -moz-appearance:textfield; /*This is for firefox*/
+}
+
+
+.woocommerce-remove-coupon {
+    display: none;
+}
+.coupon-uniquecode {
+    display: no
+}
+.product-discount {
+    position: relative;
+}
+.edit-page-custom {
+    position: absolute;
+    padding: 0px 10px !important;
+    background: #0058e7 !important;
+    color: #fff !important;
+    font-size: 12px !important;
+    font-weight: 700 !important;
+    border-radius: 5px !important;
+    float: right !important;
+    cursor: pointer !important;
+    text-transform: capitalize !important;
+    bottom: 0;
+    right: 0;
+    margin: 10px 0;
+}
+.archive.tax-product_cat.remove-filters .mcb-sidebar.sidebar
+/*.archive.tax-product_cat.term-alarm .mcb-sidebar.sidebar,*/
+/*.archive.tax-product_cat.term-smart-cameras .mcb-sidebar.sidebar,*/
+/*.archive.tax-product_cat.term-access-control .mcb-sidebar.sidebar,*/
+/*.archive.tax-product_cat.term-video-intercoms .mcb-sidebar.sidebar,*/
+/*.archive.tax-product_cat.term-dedicated-cameras .mcb-sidebar.sidebar,*/
+/*.archive.tax-product_cat.term-wireless .mcb-sidebar.sidebar,*/
+/*.archive.tax-product_cat.term-wired .mcb-sidebar.sidebar,*/
+/*.archive.tax-product_cat.term-ip-video .mcb-sidebar.sidebar,*/
+/*.archive.tax-product_cat.term-wifi-video .mcb-sidebar.sidebar,*/
+/*.archive.tax-product_cat.term-two-wire-video .mcb-sidebar.sidebar*/
+{
+    display:none;
+}
+.archive.tax-product_cat.remove-filters.with_aside .sections_group {
+    width:100%;
+}
+
+
+.woocommerce-shop.with_aside .sections_group {
+    width:100%;
+}
+.woocommerce-shop.with_aside .sections_group > .section{
+    width:50%;
+    margin:0 auto;
+}
+.woocommerce-shop.with_aside .mcb-sidebar {
+    display:none;
+}
+/*.single-product .button.configurator-btn {*/
+/*     display:none;*/
+/*}*/
+ul.breadcrumbs.woocommerce-breadcrumb li:first-child a:first-child {
+line-height: 0;
+font-size: 0;
+color: transparent;
+}
+
+ul.breadcrumbs.woocommerce-breadcrumb li:first-child a:first-child:after {
+    content: 'Shop';
+    display: inline-block;
+    line-height: 0;
+    font-size: 0.9rem;
+    color: rgba(33,33,33,0.6);
+}
+.config_cart_form {
+    width: 46%;
+    margin-left: 30px;
+    float: left;
+}
+.config_pre_order_email input {
+    width: 100% !important;
+}

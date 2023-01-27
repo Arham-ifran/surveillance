@@ -1,0 +1,172 @@
+.config_filter_field_s label {
+    display: block;
+
+}
+.config_filter_field_select_s label {
+    display: block;
+
+}
+.config_filter_field_s {
+    width: 30%;
+    float: left;
+}
+.config_filter_field_select_s{
+    width: 60%;
+    float: left;
+}
+.config_filter_field_select_s select{
+    width: 100%;
+}
+.config_filter_field_s input{
+    width: 90%;
+}
+
+.config_filter_field_s select{
+    width: 100%;
+}
+.add-new-filter-s{
+    display: inline-block;
+    margin-top: 30px !important;
+    float: right;
+}
+.add-filter-dest-s{
+    display: inline-block;
+    margin-top: 30px !important;
+    float: right;
+    text-decoration: none;
+    background: #006799;
+    color: #fff;
+    width: 15px;
+    height: 15px;
+    padding: 5px;
+    border-radius: 50%;
+    display: block;
+    font-size: 20px;
+}
+.add-filter-dest-s span{
+    display: block;
+    position: relative;
+    top: -8px;
+}
+.add-filter-dest-s:hover{
+    background-color: #fff;
+}
+.filter-dest-relation-s {
+    /* border-top: 1px solid #ddd; */
+    margin-top: 22px;
+}
+.add-new-filter-s a{
+    text-decoration: none;
+    background: #006799;
+    color: #fff;
+    width: 15px;
+    height: 15px;
+    padding: 5px;
+    border-radius: 50%;
+    display: block;
+    font-size: 20px;
+}
+.add-new-filter-s a:hover{
+    background: #fff;
+    color: #006799;
+}
+.add-new-filter-s span{
+    display: block;
+    position: relative;
+    top: -10px;
+}
+.custom-post-label-block-s{
+    display: block;
+    padding-bottom: 5px;
+}
+/* Component condition style */
+.condition-block-s {
+    width: 100%;
+    display: inline-block;
+}
+.condition-block-s .form-field {
+    width: 30%;
+    float: left;
+}
+.condition-block-s .form-field select{
+    width: 100%;
+}
+.condition-block-s .cond_tags-s{
+    height: 30px !important;
+}
+.add-new-button-s{
+    margin-top: 42px;
+}
+.add-new-button-s .append-block-d-s {
+    background: #006799;
+    color: #fff;
+    padding: 5px 12px;
+}
+.condition-block-s .condition-block{
+    display: inline-block;
+    width: 100%;
+    border-bottom: 1px solid #ddd;
+
+}
+.condition-block.group-0.condition-block-s {
+    border-bottom: 1px solid #ddd;
+}
+.custom-relation-head-s{
+    border-top: 1px solid #ddd;
+    padding-top: 20px;
+    margin-top: 20px;
+}
+.option-group-s {
+    border-bottom: 1px solid #ddd;
+}
+.option-group-s .options_group{
+    border-bottom: 0px !important;
+    border-top: 0px !important;
+}
+.option-group-s .options_group label {
+    display: block;
+    float: none;
+    margin: 0px;
+}
+.option-group-s .options_group select {
+    display: block;
+    float: none;
+}
+.option-group-s .options_group p.form-field {
+    padding: 10px !important;
+}
+.option-group-s .options_group {
+    width: 30%;
+    float: left;
+}
+.button-poisiting-s{
+    top: 30px;
+    position: relative;
+    right: 30px;
+}
+.remove-button-s {
+    top: 0px;
+    background-color: red;
+    right: 24px;
+}
+.remove-button-s span{
+    top: -7px;
+    left: 2px;
+    font-size: 28px;
+}
+a.add-filter-dest-s.remove-container span, a.remove-filter_container span, a.remove-sub-container span { 
+    font-size: 28px;
+    top: -13px;
+    left: 1px;
+}
+.taxonomy-configurator-category .select2-container--default .select2-search--inline .select2-search__field{
+    position: absolute;
+    margin: 0px 5px !important;
+}
+.custom_form_fields:first-child {
+    margin-top: -22px;
+}
+
+.show_kits_section {
+    pointer-events: none;
+}
